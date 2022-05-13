@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, p{
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+p{
+    background-color: black;
+    color: rgb(85, 85, 85);
+    padding: 40px 0;
+    text-transform: none;
+}
+
+a{
+    padding: 20px;
+    background-color: rgba(255, 132, 0, 0.777);
+    text-decoration: none;
+    transition: all 0.5s;
+    border: 1px solid rgb(255, 132, 0);
+    border-radius: 5%;
+   
+}
+a:hover{
+    background-color: rgb(255, 132, 0);
+    transform: scale(1.2);
+}
+.buttons{
+    margin: 10px auto 40px auto;
+    width: 300px;
+    
+}
+.buttons-home{
+    margin: 30% 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+table{
+    margin: 50px 0 50px 50%;
+    transform: translateX(-50%);
+    border-collapse: collapse;
+    
+}
+th{
+    border: 1px solid black;
+    
+}
+
+td{
+    border: 1px solid black;
+    padding: 2.5px 15px;
+}
+form{
+    width: 400px;
+    margin: 50px auto;
+}
+.form-section{
+    display: block;
+    margin-top: 10px;
+}
+label, input{
+    font-size: 22px;
+}
+input{
+    float: right;
+}
+input[type = 'submit']{
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(217, 70, 2);
+    margin-right: 50%;
+    transform: translateX(50%);
+    margin-bottom: 50px;
+}
+input[type = 'checkbox'],
+input[type = 'radio']{float: none;}
+.alert{
+    width: 80%;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    padding: 10px;
+    background-color: rgba(255, 98, 0, 0.982);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
